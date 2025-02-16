@@ -1,6 +1,6 @@
 {
-  "homepage": "https://vitorantoniovieira.github.io/area-calculator",
-  "name": "Area Calculator",
+  "homepage": "https://vitorantoniovieira.github.io/area-calculator/",
+  "name": "area-calculator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
