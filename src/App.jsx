@@ -5,7 +5,7 @@ function App() {
   const [shapeType, setShapeType] = useState("");
   const [baseValue, setBaseValue] = useState(0);
   const [heightValue, setHeightValue] = useState(0);
-  const icons = ['./src/assets/shapes/1.png', './src/assets/shapes/2.png', './src/assets/shapes/3.png'];
+  const icons = ['./img/1.png', './img/2.png', './img/3.png'];
 
   const handleSelectedShape = (btn, shape) => {
     setShapeType(shape);
@@ -51,17 +51,17 @@ function App() {
       <div className="shapes">
         <button onClick={(e) => handleSelectedShape(e, 'quadrado')}>
           <figure className="shapes_item">
-            <img src="./src/assets/shapes/1.png" alt="Quadrado" />
+            <img src="./img/1.png" alt="Quadrado" />
           </figure>
         </button>
         <button onClick={(e) => handleSelectedShape(e, 'retângulo')}>
           <figure className="shapes_item">
-            <img src="./src/assets/shapes/2.png" alt="Retângulo" />
+            <img src="./img/2.png" alt="Retângulo" />
           </figure>
         </button>
         <button onClick={(e) => handleSelectedShape(e, 'triângulo')}>
           <figure className="shapes_item">
-            <img src="./src/assets/shapes/3.png" alt="Triângulo" />
+            <img src="./img/3.png" alt="Triângulo" />
           </figure>
         </button>
       </div>
